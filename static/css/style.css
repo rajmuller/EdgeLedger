@@ -197,3 +197,48 @@ p {
 #who h3 {
     margin-bottom: 0.5rem;
 }
+
+
+/* Section: Our Clients */
+#clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#clients .logos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1.25rem;
+}
+
+#clients .logos .logo{
+    list-style: none;
+    height: 7rem;
+    width: 7rem;
+}
+
+#logo1 {
+    background: url("/static/logos/logo1.png") no-repeat center center/cover
+}
+
+#logo2 {
+    background: url("/static/logos/logo2.png") no-repeat center center/cover
+}
+
+#logo3 {
+    background: url("/static/logos/logo3.png") no-repeat center center/cover
+}
+
+#logo4 {
+    background: url("/static/logos/logo4.png") no-repeat center center/cover
+}
+
+#logo5 {
+    background: url("/static/logos/logo5.png") no-repeat center center/cover
+}
