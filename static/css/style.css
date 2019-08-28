@@ -38,6 +38,11 @@ p {
     color: #202020;
 }
 
+.bg-primary {
+    background: #8abe4d;
+    color: #f4f4f4;
+}
+
 .text-primary {
     color: #93cb52;
 }
@@ -77,17 +82,57 @@ p {
 }
 
 .btn-dark {
-    background: #333;
+    background: #202020;
     color: white;
 }
 
-.py-1 { padding: 1.5rem 0; }
-.py-2 { padding: 2rem 0; }
-.py-3 { padding: 3rem 0; }
+.py-1 {
+    padding: 1.5rem 0;
+}
 
-.p-1 { padding: 1.5rem 1.5rem; }
-.p-2 { padding: 2rem 2rem; }
-.p-3 { padding: 3rem 3rem; }
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem
+}
+
+.p-3 {
+    padding: 3rem
+}
+
+.my-1 {
+    margin: 1.5rem 0;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.my-3 {
+    margin: 3rem 0;
+}
+
+.m-1 {
+    margin: 1.5rem;
+}
+
+.m-2 {
+    margin: 2rem
+}
+
+.m-3 {
+    margin: 3rem
+}
 
 .list {
     margin: 0.5rem 0;
@@ -184,7 +229,7 @@ p {
     background: url("/static/images/people.jpg") no-repeat center center/cover;
 }
 
-#who .who-img .dark-overlay{
+#who .who-img .dark-overlay {
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.3);
@@ -208,7 +253,7 @@ p {
     text-align: center;
 }
 
-#clients .logos{
+#clients .logos {
     height: 100%;
     width: 100%;
     display: flex;
@@ -217,7 +262,7 @@ p {
     margin-top: 1.25rem;
 }
 
-#clients .logos .logo{
+#clients .logos .logo {
     list-style: none;
     height: 7rem;
     width: 7rem;
@@ -242,3 +287,36 @@ p {
 #logo5 {
     background: url("/static/logos/logo5.png") no-repeat center center/cover
 }
+
+
+/* Contact & Map */
+#contact {
+    display: flex;
+}
+
+#contact .contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .form-body {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#contact .form-body input {
+    margin-bottom: 0.5rem;
+}
+
+#contact .btn {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#contact .map {
+    flex: 2;
+}
+
