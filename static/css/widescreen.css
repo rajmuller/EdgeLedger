@@ -1,0 +1,17 @@
+/* Align icons to left */
+#what .items .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+#what .items .item i{
+    margin-bottom: 0;
+    margin-right: 1.3rem;
+}
+
+/* Contact form shrink */
+#contact .contact-form {
+    max-width: 25rem;
+}
